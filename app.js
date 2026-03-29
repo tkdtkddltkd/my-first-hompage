@@ -132,7 +132,7 @@ function renderItem(item) {
       body.appendChild(renderMeta(item.date));
     }
 
-    title.innerHTML = item.title ? `<b>${escapeHtml(item.title)}</b>` : "";
+    title.innerHTML = item.title ? escapeHtml(item.title) : "";
 
     if (item.summary) {
       const summary = document.createElement("p");
