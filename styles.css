@@ -123,9 +123,14 @@ a:hover {
 
 .box-card__title {
   margin-bottom: 0.95rem;
-  font-weight: 700;
+  font-weight: 400;
   font-family: "AbiDonggyeong", "Diatype Variable", sans-serif;
   font-size: calc(1em + 2px);
+}
+
+.box-card__title b,
+.detail-card__title b {
+  font-weight: 400;
 }
 
 .box-card__figure,
@@ -261,6 +266,7 @@ a:hover {
 .detail-card__title {
   margin: 0;
   font-family: "AbiDonggyeong", "Diatype Variable", sans-serif;
+  font-weight: 400;
   font-size: calc(clamp(2.2rem, 4vw, 4.4rem) + 2px);
   line-height: 0.98;
   letter-spacing: -0.03em;
