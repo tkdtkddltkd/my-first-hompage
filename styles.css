@@ -1,4 +1,12 @@
 @font-face {
+  font-family: "AbiDonggyeong";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@1.2/UhBeeDongKyung.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-display: swap;
   font-family: "Diatype Variable";
   src: url("https://type.cargo.site/files/Cargo-DiatypePlusVariable.woff2")
@@ -116,6 +124,7 @@ a:hover {
 .box-card__title {
   margin-bottom: 0.95rem;
   font-weight: 700;
+  font-family: "AbiDonggyeong", "Diatype Variable", sans-serif;
 }
 
 .box-card__figure,
@@ -250,7 +259,7 @@ a:hover {
 
 .detail-card__title {
   margin: 0;
-  font-family: "Diatype Variable", sans-serif;
+  font-family: "AbiDonggyeong", "Diatype Variable", sans-serif;
   font-size: clamp(2.2rem, 4vw, 4.4rem);
   line-height: 0.98;
   letter-spacing: -0.03em;
