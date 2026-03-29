@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphic Z427 Clone</title>
+    <link rel="preconnect" href="https://type.cargo.site" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="page-grid" id="page-grid" aria-live="polite"></section>
+    </main>
+
+    <template id="boxed-template">
+      <article class="boxed-type box-card">
+        <div class="box-card__content">
+          <div class="box-card__title"></div>
+          <div class="box-card__body"></div>
+        </div>
+      </article>
+    </template>
+
+    <template id="media-template">
+      <figure class="media-card">
+        <img class="media-card__image" alt="" loading="lazy" />
+      </figure>
+    </template>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
