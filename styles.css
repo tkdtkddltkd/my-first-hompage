@@ -125,6 +125,7 @@ a:hover {
   margin-bottom: 0.95rem;
   font-weight: 700;
   font-family: "AbiDonggyeong", "Diatype Variable", sans-serif;
+  font-size: calc(1em + 2px);
 }
 
 .box-card__figure,
@@ -260,7 +261,7 @@ a:hover {
 .detail-card__title {
   margin: 0;
   font-family: "AbiDonggyeong", "Diatype Variable", sans-serif;
-  font-size: clamp(2.2rem, 4vw, 4.4rem);
+  font-size: calc(clamp(2.2rem, 4vw, 4.4rem) + 2px);
   line-height: 0.98;
   letter-spacing: -0.03em;
   margin-bottom: 1rem;
