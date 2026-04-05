@@ -160,6 +160,7 @@ a:hover {
 .box-card__figure {
   margin-top: 0.35rem;
   margin-bottom: 0.9rem;
+  opacity: 0;
 }
 
 .box-card__image,
