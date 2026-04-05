@@ -13,7 +13,7 @@ const fallbackData = {
         title: "첫 번째 글 샘플",
         summary: "노션에서 제목, 본문, 날짜, 첨부 이미지를 작성하면 이 카드에 표시됩니다.",
         date: "2026-03-22",
-        imageUrl: buildPlaceholder("landscape"),
+        imageUrl: "./assets/first-card-image.png",
         body: [
           {
             type: "paragraph",
