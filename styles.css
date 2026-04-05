@@ -91,7 +91,7 @@ a:hover {
   flex-direction: column;
   gap: 1.5rem;
   min-width: 0;
-  align-items: center;
+  align-items: stretch;
 }
 
 .boxed-type,
