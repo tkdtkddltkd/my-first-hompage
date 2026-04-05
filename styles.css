@@ -175,7 +175,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   position: relative;
-  top: -25px;
+  top: 0;
   background-image: url("./assets/image-box-figure-bg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -200,7 +200,7 @@ a:hover {
   object-fit: contain;
   object-position: center;
   position: relative;
-  top: 6px;
+  top: 0;
   transform: none !important;
   z-index: 1;
 }
