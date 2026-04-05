@@ -76,7 +76,7 @@ a:hover {
   background-image: url("./assets/page-shell-bg.jpg");
   background-position: center;
   background-repeat: repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .page-grid {
