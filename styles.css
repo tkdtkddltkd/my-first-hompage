@@ -112,6 +112,11 @@ a:hover {
 .box-card--clickable {
   cursor: pointer;
   transition: transform 120ms ease, box-shadow 120ms ease;
+  background-color: #f7f3ea;
+  background-image: url("./assets/box-card-paper.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 512px auto;
 }
 
 .box-card--clickable:hover,
