@@ -59,6 +59,7 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: "Diatype Semi-Mono Variable", monospace;
+  overflow-x: auto;
 }
 
 a {
@@ -86,6 +87,8 @@ a:hover {
   gap: var(--gap);
   align-items: start;
   justify-content: center;
+  width: max-content;
+  min-width: 100%;
 }
 
 .page-column {
@@ -371,22 +374,19 @@ a:hover {
 }
 
 @media (max-width: 760px) {
-  html {
-    font-size: 15px;
-  }
-
   .page-shell {
     padding: 1.25rem;
+    overflow-x: auto;
   }
 
   .page-grid {
     grid-template-columns: var(--card-width);
-    gap: 1.25rem;
+    gap: var(--gap);
     justify-content: center;
   }
 
   .page-column {
-    gap: 1.25rem;
+    gap: 1.5rem;
   }
 
   .media-pair {
