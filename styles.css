@@ -170,7 +170,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 25px;
+  top: -25px;
   background-image: url("./assets/image-box-figure-bg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -187,13 +187,14 @@ a:hover {
 }
 
 .box-card__image {
-  width: 450px;
-  height: 337.5px;
+  width: 360px;
+  height: 270px;
   max-width: none;
   max-height: none;
   object-fit: contain;
   object-position: center;
   position: relative;
+  top: -50px;
   z-index: 1;
 }
 
