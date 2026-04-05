@@ -174,7 +174,7 @@ a:hover {
   background-image: url("./assets/image-box-figure-bg.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 450px 337.5px;
+  background-size: contain;
 }
 
 .box-card__image,
