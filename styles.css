@@ -167,12 +167,8 @@ a:hover {
   display: block;
   width: 100%;
   height: auto;
-  border: var(--border);
-  background: #ececec;
-}
-
-.box-card__image {
-  opacity: 0.42;
+  border: 0;
+  background: transparent;
 }
 
 .box-card__meta,
