@@ -175,6 +175,7 @@ a:hover {
   margin-bottom: 0.35rem;
   margin-left: auto;
   margin-right: auto;
+  align-self: center;
   width: 597.6px;
   height: 448.2px;
   flex: 0 0 auto;
