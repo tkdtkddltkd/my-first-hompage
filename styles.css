@@ -163,6 +163,9 @@ a:hover {
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box-card__image,
