@@ -171,6 +171,10 @@ a:hover {
   background: #ececec;
 }
 
+.box-card__image {
+  opacity: 0.42;
+}
+
 .box-card__meta,
 .detail-card__meta {
   margin: 0 0 0.85rem;
