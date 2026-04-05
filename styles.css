@@ -161,7 +161,8 @@ a:hover {
   margin-top: 0;
   margin-bottom: 0.35rem;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: calc((100vw / 3 - 5rem) * 0.75 + 100px);
+  max-height: 30rem;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -352,6 +353,11 @@ a:hover {
 
   .page-column {
     gap: 1.25rem;
+  }
+
+  .box-card__figure {
+    height: calc(100vw * 0.75 - 1.5rem + 100px);
+    max-height: 26rem;
   }
 
   .media-pair {
