@@ -195,7 +195,7 @@ a:hover {
   object-position: center;
   position: relative;
   top: 0;
-  transform: translateY(18px);
+  transform: translateY(18px) !important;
   z-index: 1;
 }
 
