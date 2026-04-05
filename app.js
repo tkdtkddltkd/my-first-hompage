@@ -1,6 +1,7 @@
 const grid = document.querySelector("#page-grid");
 const boxedTemplate = document.querySelector("#boxed-template");
 const mediaTemplate = document.querySelector("#media-template");
+const CARD_IMAGE_SRC = "./assets/all-card-image.png";
 
 const fallbackData = {
   source: "demo",
@@ -211,7 +212,7 @@ function renderCardImage(src, alt) {
 
   const image = document.createElement("img");
   image.className = "box-card__image";
-  image.src = src;
+  image.src = CARD_IMAGE_SRC;
   image.alt = alt || "";
 
   figure.appendChild(image);
