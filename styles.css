@@ -91,6 +91,7 @@ a:hover {
   flex-direction: column;
   gap: 1.5rem;
   min-width: 0;
+  align-items: center;
 }
 
 .boxed-type,
@@ -113,11 +114,14 @@ a:hover {
   cursor: pointer;
   transition: transform 120ms ease, box-shadow 120ms ease;
   aspect-ratio: 1080 / 1350;
-  width: 100%;
-  min-width: 0;
+  width: 435px;
+  min-width: 435px;
+  max-width: 435px;
   height: auto;
   box-sizing: border-box;
   flex: 0 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   border: 0;
   box-shadow: none;
   background-color: transparent;
@@ -143,6 +147,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
 }
 
 .box-card__title {
