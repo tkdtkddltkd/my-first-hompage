@@ -147,6 +147,20 @@ a:hover {
   margin: 0 0 1rem;
 }
 
+.box-card__figure,
+.box-card__meta,
+.box-card__body p {
+  background-image: url("./assets/box-card-content-frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  color: #111;
+}
+
+.box-card__figure {
+  padding: 2.5rem 1.85rem 5.4rem;
+}
+
 .box-card__image,
 .detail-card__image {
   display: block;
@@ -163,6 +177,14 @@ a:hover {
   font-size: 0.95rem;
 }
 
+.box-card__meta {
+  min-height: 5.4rem;
+  padding: 2.15rem 1.5rem 2rem;
+  display: flex;
+  align-items: flex-end;
+  color: #111;
+}
+
 .box-card__title:empty {
   display: none;
 }
@@ -171,6 +193,11 @@ a:hover {
 .box-card__body ul,
 .box-card__body ol {
   margin: 0 0 0.95rem;
+}
+
+.box-card__body p {
+  min-height: 13rem;
+  padding: 2.3rem 1.55rem 4.4rem;
 }
 
 .box-card__body p:last-child,
