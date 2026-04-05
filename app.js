@@ -1,6 +1,7 @@
 const grid = document.querySelector("#page-grid");
 const boxedTemplate = document.querySelector("#boxed-template");
 const mediaTemplate = document.querySelector("#media-template");
+const DEFAULT_CARD_IMAGE_SRC = "./assets/current-card-image.png";
 
 const fallbackData = {
   source: "demo",
@@ -13,7 +14,7 @@ const fallbackData = {
         title: "첫 번째 글 샘플",
         summary: "노션에서 제목, 본문, 날짜, 첨부 이미지를 작성하면 이 카드에 표시됩니다.",
         date: "2026-03-22",
-        imageUrl: "./assets/first-card-image.png",
+        imageUrl: DEFAULT_CARD_IMAGE_SRC,
         body: [
           {
             type: "paragraph",
@@ -32,7 +33,7 @@ const fallbackData = {
         title: "두 번째 글 샘플",
         summary: "카드를 클릭하면 새 글 페이지가 열립니다.",
         date: "2026-03-20",
-        imageUrl: buildPlaceholder("portrait"),
+        imageUrl: DEFAULT_CARD_IMAGE_SRC,
         body: [
           {
             type: "paragraph",
@@ -49,7 +50,7 @@ const fallbackData = {
         title: "세 번째 글 샘플",
         summary: "본문 요약은 홈페이지 카드에 먼저 보이고, 상세 페이지에서는 전체 내용이 보입니다.",
         date: "2026-03-18",
-        imageUrl: buildPlaceholder("square"),
+        imageUrl: DEFAULT_CARD_IMAGE_SRC,
         body: [
           {
             type: "paragraph",
@@ -66,7 +67,7 @@ const fallbackData = {
         title: "네 번째 글 샘플",
         summary: "첨부 이미지는 홈페이지 카드와 상세 페이지 둘 다에 보이게 연결됩니다.",
         date: "2026-03-15",
-        imageUrl: buildPlaceholder("landscape"),
+        imageUrl: DEFAULT_CARD_IMAGE_SRC,
         body: [
           {
             type: "paragraph",
@@ -124,7 +125,7 @@ function renderItem(item) {
     const title = fragment.querySelector(".box-card__title");
     const body = fragment.querySelector(".box-card__body");
 
-    body.appendChild(renderCardImage(item.imageUrl || "", item.title));
+    body.appendChild(renderCardImage(item.imageUrl || DEFAULT_CARD_IMAGE_SRC, item.title));
 
     if (item.date) {
       body.appendChild(renderMeta(item.date));
