@@ -158,7 +158,7 @@ a:hover {
 }
 
 .box-card__figure {
-  margin-top: 15px;
+  margin-top: 0;
   margin-bottom: 0.35rem;
   margin-left: auto;
   margin-right: auto;
@@ -169,6 +169,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  top: 15px;
 }
 
 .box-card__image,
@@ -187,7 +189,6 @@ a:hover {
   max-height: none;
   object-fit: contain;
   object-position: center;
-  transform: translateY(15px);
 }
 
 .box-card__meta,
