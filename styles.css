@@ -187,8 +187,8 @@ a:hover {
 }
 
 .box-card__image {
-  width: 355px;
-  height: 265px;
+  width: 345px;
+  height: 255px;
   max-width: none;
   max-height: none;
   object-fit: contain;
