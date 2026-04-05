@@ -194,7 +194,8 @@ a:hover {
   object-fit: contain;
   object-position: center;
   position: relative;
-  top: -25px;
+  top: 0;
+  transform: translateY(25px);
   z-index: 1;
 }
 
