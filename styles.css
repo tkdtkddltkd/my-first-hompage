@@ -132,7 +132,7 @@ a:hover {
   background-position: center;
   background-repeat: repeat;
   background-size: 512px auto;
-  padding: 1.1rem 0.5rem 2rem;
+  padding: 1.1rem 1rem 2rem;
 }
 
 .box-card--clickable:hover,
@@ -175,8 +175,8 @@ a:hover {
   margin-bottom: 0.35rem;
   margin-left: auto;
   margin-right: auto;
-  width: 514px;
-  height: 385.5px;
+  width: 597.6px;
+  height: 448.2px;
   flex: 0 0 auto;
   overflow: hidden;
   display: flex;
@@ -200,8 +200,8 @@ a:hover {
 }
 
 .box-card__image {
-  width: 438px;
-  height: 323.4px;
+  width: 511.2px;
+  height: 377.28px;
   flex: 0 0 auto;
   max-width: none;
   max-height: none;
