@@ -193,8 +193,10 @@ a:hover {
   max-height: none;
   object-fit: contain;
   object-position: center;
-  position: relative;
+  position: absolute;
   top: 1px;
+  left: 50%;
+  margin-left: -177.5px;
   transform: none !important;
   z-index: 1;
 }
