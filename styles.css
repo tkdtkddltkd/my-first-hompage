@@ -112,11 +112,15 @@ a:hover {
 .box-card--clickable {
   cursor: pointer;
   transition: transform 120ms ease, box-shadow 120ms ease;
-  background-color: #f7f3ea;
-  background-image: url("./assets/box-card-paper.jpg");
+  aspect-ratio: 1080 / 1350;
+  border: 0;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: url("./assets/box-card-content-frame.png");
   background-position: center;
-  background-repeat: repeat;
-  background-size: 512px auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 2rem 1.7rem 3.3rem;
 }
 
 .box-card--clickable:hover,
@@ -128,6 +132,12 @@ a:hover {
 .box-card--clickable:focus-visible {
   outline: 2px solid var(--ink);
   outline-offset: 0.3rem;
+}
+
+.box-card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .box-card__title {
@@ -147,18 +157,9 @@ a:hover {
   margin: 0 0 1rem;
 }
 
-.box-card__figure,
-.box-card__meta,
-.box-card__body p {
-  background-image: url("./assets/box-card-content-frame.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-  color: #111;
-}
-
 .box-card__figure {
-  padding: 2.5rem 1.85rem 5.4rem;
+  margin-top: 0.35rem;
+  margin-bottom: 0.9rem;
 }
 
 .box-card__image,
@@ -178,8 +179,8 @@ a:hover {
 }
 
 .box-card__meta {
-  min-height: 5.4rem;
-  padding: 2.15rem 1.5rem 2rem;
+  min-height: 1.6rem;
+  padding: 0;
   display: flex;
   align-items: flex-end;
   color: #111;
@@ -195,9 +196,17 @@ a:hover {
   margin: 0 0 0.95rem;
 }
 
+.box-card__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
 .box-card__body p {
-  min-height: 13rem;
-  padding: 2.3rem 1.55rem 4.4rem;
+  margin-top: auto;
+  min-height: 0;
+  padding: 0;
 }
 
 .box-card__body p:last-child,
