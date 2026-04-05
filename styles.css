@@ -113,6 +113,11 @@ a:hover {
   cursor: pointer;
   transition: transform 120ms ease, box-shadow 120ms ease;
   aspect-ratio: 1080 / 1350;
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  box-sizing: border-box;
+  flex: 0 0 auto;
   border: 0;
   box-shadow: none;
   background-color: transparent;
