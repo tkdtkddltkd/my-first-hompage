@@ -120,7 +120,7 @@ a:hover {
   background-position: center, center;
   background-repeat: no-repeat, repeat;
   background-size: 100% 100%, 512px auto;
-  padding: 2rem 1.7rem 3.3rem;
+  padding: 1.1rem 1rem 2rem;
 }
 
 .box-card--clickable:hover,
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .box-card__title {
-  margin-bottom: 0.95rem;
+  margin-bottom: 0.5rem;
   font-weight: 700;
   font-family: "AbiDonggyeong", "Diatype Variable", sans-serif;
   font-size: calc(1em + 2px);
@@ -158,8 +158,8 @@ a:hover {
 }
 
 .box-card__figure {
-  margin-top: 0.2rem;
-  margin-bottom: 0.6rem;
+  margin-top: 0;
+  margin-bottom: 0.35rem;
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
@@ -195,6 +195,7 @@ a:hover {
   display: flex;
   align-items: flex-end;
   color: #111;
+  margin-bottom: 0.35rem;
 }
 
 .box-card__title:empty {
