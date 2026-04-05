@@ -160,20 +160,22 @@ a:hover {
 .box-card__figure {
   margin-top: 0.2rem;
   margin-bottom: 0.6rem;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
 }
 
 .box-card__image,
 .detail-card__image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   border: 0;
   background: transparent;
 }
 
 .box-card__image {
-  max-height: 15.5rem;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .box-card__meta,
