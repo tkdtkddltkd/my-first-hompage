@@ -43,7 +43,7 @@
   --border: 0.1rem solid var(--ink);
   --shadow: 0.5rem 0.5rem 0 0 var(--ink);
   --gap: 3rem;
-  --card-width: 435px;
+  --card-width: 530px;
 }
 
 * {
@@ -175,8 +175,8 @@ a:hover {
   margin-bottom: 0.35rem;
   margin-left: auto;
   margin-right: auto;
-  width: 415px;
-  height: 311.25px;
+  width: 498px;
+  height: 373.5px;
   flex: 0 0 auto;
   overflow: hidden;
   display: flex;
@@ -200,8 +200,8 @@ a:hover {
 }
 
 .box-card__image {
-  width: 355px;
-  height: 262px;
+  width: 426px;
+  height: 314.4px;
   flex: 0 0 auto;
   max-width: none;
   max-height: none;
