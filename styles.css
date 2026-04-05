@@ -116,10 +116,10 @@ a:hover {
   border: 0;
   box-shadow: none;
   background-color: transparent;
-  background-image: url("./assets/box-card-content-frame.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-image: url("./assets/box-card-content-frame.png"), url("./assets/box-card-paper.jpg");
+  background-position: center, center;
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 100%, 512px auto;
   padding: 2rem 1.7rem 3.3rem;
 }
 
