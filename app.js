@@ -125,9 +125,7 @@ function renderItem(item) {
     const title = fragment.querySelector(".box-card__title");
     const body = fragment.querySelector(".box-card__body");
 
-    if (item.imageUrl) {
-      body.appendChild(renderCardImage(item.imageUrl, item.title));
-    }
+    body.appendChild(renderCardImage(CARD_IMAGE_SRC, item.title));
 
     if (item.date) {
       body.appendChild(renderMeta(item.date));
