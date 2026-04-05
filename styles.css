@@ -181,8 +181,10 @@ a:hover {
 }
 
 .box-card__image {
-  max-width: 100%;
-  max-height: 100%;
+  width: 450px;
+  height: 337.5px;
+  max-width: none;
+  max-height: none;
   object-fit: contain;
   object-position: center;
 }
