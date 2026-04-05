@@ -1,7 +1,6 @@
 const grid = document.querySelector("#page-grid");
 const boxedTemplate = document.querySelector("#boxed-template");
 const mediaTemplate = document.querySelector("#media-template");
-const CARD_IMAGE_SRC = "./assets/all-card-image.png";
 
 const fallbackData = {
   source: "demo",
@@ -125,7 +124,7 @@ function renderItem(item) {
     const title = fragment.querySelector(".box-card__title");
     const body = fragment.querySelector(".box-card__body");
 
-    body.appendChild(renderCardImage(CARD_IMAGE_SRC, item.title));
+    body.appendChild(renderCardImage(item.imageUrl || "", item.title));
 
     if (item.date) {
       body.appendChild(renderMeta(item.date));
@@ -208,12 +207,14 @@ function renderCardImage(src, alt) {
   const figure = document.createElement("figure");
   figure.className = "box-card__figure";
 
-  const image = document.createElement("img");
-  image.className = "box-card__image";
-  image.src = CARD_IMAGE_SRC;
-  image.alt = alt || "";
+  if (src) {
+    const image = document.createElement("img");
+    image.className = "box-card__image";
+    image.src = src;
+    image.alt = alt || "";
+    figure.appendChild(image);
+  }
 
-  figure.appendChild(image);
   return figure;
 }
 
